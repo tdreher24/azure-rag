@@ -2,7 +2,8 @@ name: Trigger auto deployment for demo-container
 
 env:
   AZURE_CONTAINER_APP_NAME: demo-container
-  AZURE_GROUP_NAME: demo-container
+  AZURE_GROUP_NAME: container-app
+  AZURE_ENVIRONMENT_NAME: managedEnvironment-containerapp-b338
 
 # When this action will be executed
 on:
